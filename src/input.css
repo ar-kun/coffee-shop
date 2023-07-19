@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* navbar link */
+.navLink {
+ @apply text-xl duration-700 after:block after:origin-center after:scale-x-0 after:border-b-2 after:border-[#EC9A29] after:pb-1 after:transition-all after:content-[''] hover:after:scale-x-100;
+}
+
+/* a link */
+.link {
+ @apply text-white text-center bg-third px-[1rem] py-2 rounded-xl text-sm shadow-lg shadow-third/50 hover:shadow-none hover:bg-third/75 hover:text-slate-200 transition-all ease-out duration-300;
+}

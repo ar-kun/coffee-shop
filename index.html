@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./dist/output.css" rel="stylesheet" />
+  <!-- Font awoseome -->
+  <link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+   integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+   crossorigin="anonymous"
+   referrerpolicy="no-referrer"
+  />
+  <!-- Typed js -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <!-- Aos js -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ </head>
+ <body style="background-image: url('./dist/img/bg.png')">
+  <header
+   class="p-5 md:p-10 lg:px-20 text-white text-center h-screen md:h-[30rem] lg:h-[35rem] rounded-b-3xl md:flex md:flex-wrap md:justify-between"
+   style="background-image: linear-gradient(180deg, rgba(20, 54, 66, 0.7) 0%, rgba(20, 54, 66, 0.7) 100%), url('./dist/img/Coffe\ Header.png')"
+  >
+   <a href="/" class="w-2/4 md:w-2/6 lg:w-52">
+    <img src="./dist/img/Logo White.png" alt="" class="w-full" />
+   </a>
+   <nav class="md:w-1/2">
+    <ul class="flex gap-10 sm:gap-20 md:gap-10 lg:gap-20 justify-center md:justify-end my-10 md:my-0">
+     <li>
+      <a href="menu.html" class="navLink md:text-2xl">Product</a>
+     </li>
+     <li><a href="store.html" class="navLink md:text-2xl">Store</a></li>
+     <li><a href="contact.html" class="navLink md:text-2xl">Contact</a></li>
+    </ul>
+   </nav>
+   <div id="tagline" class="flex flex-row flex-wrap justify-center h-1/2 items-center md:w-full">
+    <h1 class="text-4xl font-bold p-5" ><span id="headTitile"></span><span class="md:text-xl block font-normal">Best qualities from our local soil</span></h1>
+   </div>
+  </header>
+  <section class="container my-10 lg:my-20" id="product" >
+   <div class="flex gap-5 items-center my-10 lg:mx-48" data-aos="fade-right">
+    <div class="h-60 md:h-72 w-[60rem] lg:h-[30rem] lg:w-[20rem] ">
+     <img src="./dist/img/Who are we.jpg" alt="" class="w-full h-full object-cover rounded-xl shadow-md shadow-slate-400" />
+    </div>
+    <div class="lg:w-[35%] lg:mx-10">
+     <h2 class="text-primary text-2xl font-bold py-2 border-b-4 border-[#EC9A29] md:text-4xl">Who are we ?</h2>
+     <p class="py-2 text-justify md:text-xl">
+      We are Jakarta-based coffee and tea house focused on professionally brewing locally sourced, high quality, coffee beans and tea leaves.
+     </p>
+    </div>
+   </div>
+   <div class="flex gap-5 items-center justify-end my-10 lg:mx-48" data-aos="fade-left">
+    <div class="flex flex-col justify-center lg:w-[37%] lg:mx-10">
+     <h2 class="text-primary text-xl font-bold py-2 border-b-4 border-[#EC9A29] md:text-4xl">Product Showcase</h2>
+     <p class="py-2 text-justify mb-4 md:text-xl">our products contain the highest quality ingredients processed with care.</p>
+     <a href="#" class="link md:text-xl md:p-3">See our coffee and tea</a>
+    </div>
+    <div class="h-60 md:h-72 w-[25rem] md:w-[40rem] lg:h-[30rem] lg:w-[20rem]">
+     <img src="./dist/img/Our products.jpg" alt="" class="w-full h-full object-cover rounded-xl shadow-md shadow-slate-400" />
+    </div>
+   </div>
+   <div class="flex gap-5 items-center my-5 lg:mx-48" data-aos="fade-right">
+    <div class="h-60 md:h-72 w-[35rem] md:w-[50rem] lg:h-[30rem] lg:w-[20rem]">
+     <img src="./dist/img/Hang out with us.jpg" alt="" class="w-full h-full object-cover rounded-xl shadow-md shadow-slate-400" />
+    </div>
+    <div class="flex flex-col justify-center lg:w-[35%] lg:mx-10" >
+     <h2 class="text-primary text-xl font-bold py-2 border-b-4 border-[#EC9A29] md:text-4xl">How out with us!</h2>
+     <p class="py-2 text-justify mb-4 md:text-xl">Our store use sustainable furnitures, surrounded by nature, to help our planet survive.</p>
+     <a href="#" class="link md:text-xl md:p-3">Find our cafes</a>
+    </div>
+   </div>
+  </section>
+
+  <section class="container my-10 lg:px-40" id="findUs">
+   <h2 class="text-[1.7rem] leading-8 text-primary text-center font-bold my-5 md:text-4xl">
+    Find us out at Instagram <a href="#" class="underline text-[#EC9A29]">@aroma_bumi</a>!
+   </h2>
+   <div class="flex flex-wrap gap-5 lg:gap-10 justify-center">
+    <div class="w-[45%] md:w-[30%] hover:scale-110 transition-all ease-out duration-300">
+     <img src="./dist/img/Feed 1.png" alt="" class="w-full object-cover shadow-md shadow-slate-400 rounded-3xl hover:shadow-none " data-aos="fade-up"
+     data-aos-duration="1500"/>
+    </div>
+    <div class="w-[45%] md:w-[30%] hover:scale-110 transition-all ease-out duration-300">
+     <img src="./dist/img/Feed 2.png" alt="" class="w-full object-cover shadow-md shadow-slate-400 rounded-3xl hover:shadow-none " data-aos="fade-up"
+     data-aos-duration="1500"/>
+    </div>
+    <div class="w-[45%] md:w-[30%] hover:scale-110 transition-all ease-out duration-300">
+     <img src="./dist/img/Feed 3.png" alt="" class="w-full object-cover shadow-md shadow-slate-400 rounded-3xl hover:shadow-none " data-aos="fade-up"
+     data-aos-duration="1500"/>
+    </div>
+    <div class="w-[45%] md:w-[30%] hover:scale-110 transition-all ease-out duration-300">
+     <img src="./dist/img/Feed 4.png" alt="" class="w-full object-cover shadow-md shadow-slate-400 rounded-3xl hover:shadow-none " data-aos="fade-up"
+     data-aos-duration="1500"/>
+    </div>
+    <div class="w-[45%] md:w-[30%] hover:scale-110 transition-all ease-out duration-300">
+     <img src="./dist/img/Feed 5.png" alt="" class="w-full object-cover shadow-md shadow-slate-400 rounded-3xl hover:shadow-none " data-aos="fade-up"
+     data-aos-duration="1500"/>
+    </div>
+    <div class="w-[45%] md:w-[30%] hover:scale-110 transition-all ease-out duration-300">
+     <img src="./dist/img/Feed 6.png" alt="" class="w-full object-cover shadow-md shadow-slate-400 rounded-3xl hover:shadow-none " data-aos="fade-up"
+     data-aos-duration="1500"/>
+    </div>
+   </div>
+  </section>
+
+  <section class="container my-10 text-center" id="askUs">
+   <h2 class="text-3xl text-primary md:text-4xl">Ask us more!</h2>
+   <p class="mb-7 md:text-xl">If you have any question or interested to coopereate with us, kindly let us know here:</p>
+   <a href="#" class="link md:text-xl md:p-3 md:px-10">Contact us</a>
+  </section>
+
+  <footer class="bg-secondary py-7 px-10 text-white">
+   <div class="lg:flex lg:justify-around">
+    <div class="flex gap-5 justify-between">
+     <div class="w-1/2 md:w-2/6 lg:w-52">
+      <img src="./dist/img/Logo White.png" alt="" class="w-full object-cover" />
+     </div>
+     <div class="text-3xl md:text-4xl">
+      <i class="fa-solid fa-envelope mx-5"></i>
+      <i class="fa-solid fa-phone"></i>
+     </div>
+    </div>
+    <div class="flex flex-col my-5 gap-5 lg:gap-32 md:flex-row md:justify-evenly md:text-2xl">
+     <ul>
+      <li class="text-[#EC9A29] font-bold">Products</li>
+      <li class="ml-5">Coffee Based</li>
+      <li class="ml-5">Non-coffee</li>
+      <li class="ml-5">Tea Based</li>
+     </ul>
+     <ul>
+      <li class="text-[#EC9A29] font-bold">Store</li>
+      <li class="ml-5">Location</li>
+     </ul>
+     <ul>
+      <li class="text-[#EC9A29] font-bold">Contact</li>
+      <li class="ml-5">Customer Service</li>
+     </ul>
+    </div>
+   </div>
+
+   <h3 class="text-center md:text-xl">2022 &copy; Designed by Progate Indonesia</h3>
+   <p class="text-center md:text-xl">Created by ❤️ <a href="" class="underline">arkun</a> 2023. Alright</p>
+  </footer>
+  <!-- Typed js -->
+
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    const typed = new Typed('#headTitile', {
+      strings: ['Freshly Brewed Coffee and Tea'],
+      typeSpeed: 50,
+      backSpeed: 50,
+      backDelay: 1000,
+      loop: true,
+  loopCount: Infinity,
+    });
+  </script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init({
+    duration: 1000,
+  });
+</script>
+</body>
+ </body>
+ 
+</html>
